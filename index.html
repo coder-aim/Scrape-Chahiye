@@ -14,6 +14,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 	  <link rel="icon" type="image/x-icon" href="/img/icons8-recycle-ios-17-filled-16.png">
 	<script src="js/bootstrap.bundle.min.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -154,7 +155,7 @@
 	<section id="center" class="center_h">
 		<div class="center_hm bg_back">
 			<div class="container-xl">
-				<div class="row center_h1">
+				<!-- <div class="row center_h1">
 					<div class="col-md-9">
 						<div class="center_h1l">
 							<div class="center_h1li row">
@@ -207,7 +208,7 @@
 							<h6 class="mb-0"><a class="button" href="#sched">SCHEDULE PICKUP</a></h6>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<div class="row center_h2 pt-5  mt-5 text-center">
 					<div class="col-md-12">
 						<h1 class="text-white">Clear the Clutter, Clean the Earth</h2>
@@ -215,7 +216,10 @@
 							<p class="text-white-50 mt-4">We can solve your corporate IT disposition needs quickly and
 								professionally. <br>
 								Save Your community, Save Your planet</p>
-							<h6 class="mb-0 mt-4"><a class="button" href="services.html">OUR SERVICES</a></h6>
+							<h6 class="mb-0 mt-4 d-flex flex-column align-items-center gap-2">
+  <a class="button" href="services.html">OUR SERVICES</a>
+  <a class="button" href="#sched">SCHEDULE PICKUP</a>
+</h6>
 					</div>
 				</div>
 			</div>
@@ -416,7 +420,7 @@
 
 			<div class="row mt-5 text-center">
 				<div class="col-12">
-					<a class="btn btn-success px-4 py-2 rounded-pill" href="/services.html">View All Services</a>
+					<a class="btn btn-success px-4 py-2 rounded-pill" href="services.html">View All Services</a>
 				</div>
 			</div>
 		</div>
@@ -741,8 +745,8 @@
 						<div class="col-md-6 mb-3 mb-md-0">
 							<div class="d-flex align-items-center">
 								<div class="me-3">
-									<span class="d-inline-block bg-white col_green rounded-circle text-center fs-3 p-3">
-										<i class="fa fa-phone"></i>
+									<span class="d-inline-flex align-items-center justify-content-center bg-white col_green rounded-circle" style="width: 50px; height: 50px;">
+										<i class="fa fa-phone fs-4"></i>
 									</span>
 								</div>
 								<div>
@@ -755,13 +759,13 @@
 						<div class="col-md-6 mb-3 mb-md-0">
 							<div class="d-flex align-items-center">
 								<div class="me-3">
-									<span class="d-inline-block bg-white col_green rounded-circle text-center fs-3 p-3">
-										<i class="fa fa-clock-o"></i>
+									<span class="d-inline-flex align-items-center justify-content-center bg-white col_green rounded-circle" style="width: 50px; height: 50px;">
+										<i class="fa fa-clock-o fs-4"></i>
 									</span>
 								</div>
 								<div>
 									<h5 class="text-white mb-1">Open Hours</h5>
-									<h6 class="mb-0 text-light font_14">Weekdays 9.00-17.00, Sat: Closed</h6>
+									<h6 class="mb-0 text-light font_14">24/7 365 Days</h6>
 								</div>
 							</div>
 						</div>
@@ -839,17 +843,36 @@
 			<div class="row">
 				<div class="col-12 text-center">
 					<p class="mb-0">
-						© 2025 CoderAIM. All Rights Reserved |
-						Design by
-						<a class="text-success fw-bold text-decoration-none" href="http://www.coderaim.com"
-							target="_blank">
-							CoderAIM
-						</a>
+						© 2025 Mahezainfo. All Rights Reserved | Design by Mahezainfo
 					</p>
 				</div>
 			</div>
 		</div>
 	</section>
+
+	<!-- <a href="https://api.whatsapp.com/send?phone=+919909565509&text=Hello" target="_blank" class="float">
+<i class="fa fa-whatsapp my-float"></i>
+</a> -->
+
+<div class="floating-container">
+  <div class="floating-button">+</div>
+  <div class="element-container">
+
+    <a href="tel:+919909565509">
+      <span class="float-element tooltip-left">
+        <i class="fa fa-phone"></i>
+      </span>
+    </a>
+
+    <a href="https://api.whatsapp.com/send?phone=+919909565509&text=Hello" target="_blank">
+      <span class="float-element">
+        <i class="fa fa-whatsapp"></i>
+      </span>
+    </a>
+
+  </div>
+</div>
+
 
 
 	<script>

@@ -334,7 +334,8 @@
 									<span class="input-group-text bg-transparent border-0 col_green">
 										<i class="fa fa-calendar fs-5"></i>
 									</span>
-									<input type="date" name="date" class="form-control border-0 p-3" placeholder="Date" required>
+									<input type="date" name="date" class="form-control border-0 p-3" placeholder="Date" id="dateInput" required>
+									<script>document.getElementById('dateInput').value = new Date().toISOString().split('T')[0];</script>
 								</div>
 							</div>
 
@@ -343,7 +344,8 @@
 									<span class="input-group-text bg-transparent border-0 col_green">
 										<i class="fa fa-clock-o fs-5"></i>
 									</span>
-									<input type="time" name="time" placeholder="Time" class="form-control border-0 p-3" required>
+									<input type="time" name="time" placeholder="Time" class="form-control border-0 p-3" id="timeInput" required>
+									<script>document.getElementById('timeInput').value = new Date().toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'});</script>
 								</div>
 							</div>
 							
